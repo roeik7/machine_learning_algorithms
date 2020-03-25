@@ -14,7 +14,7 @@ p = zeros(m, 1);
 % theta = (n+1) x 1
   
   hypothesis_function = sigmoid(X*theta);
-  probability=(h_x>=0.5);
+  p=(hypothesis_function>=0.5);
   
   % =========================================================================
 end
