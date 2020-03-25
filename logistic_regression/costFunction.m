@@ -13,9 +13,9 @@ grad = zeros(size(theta));
 
 
   z = X * theta;      % m x 1
-  hypothesis_function = sigmoid(z);   % m x 1 
+  hypothesis_function = sigmoid(z);   % real number
   
-  J = (1/m)*sum((-y.*log(h_x))-((1-y).*log(1-h_x))); % cost
+  J = (1/m)*sum((-y.*log(hypothesis_function))-((1-y).*log(1-hypothesis_function))); % cost
   
   grad = (1/m)* (X'*(hypothesis_function-y));     % (make the gradient by vectorization) (n+1) x 1
   
