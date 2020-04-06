@@ -1,4 +1,4 @@
-# Handewritten recognition using neural netwirks
+# Handewritten recognition using neural networks
 <br/>
 Here i implemented neural network to recognize hand-written digits.<br/>
 a data set in ex4data1.mat that contains 5000 training examples of handwritten digits.<br/>
